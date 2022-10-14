@@ -4,4 +4,37 @@
 
 body {
   margin: 0;
+  font: 400 11px "Inter", sans-serif;
+}
+
+.header-title {
+  margin: 0;
+  font-weight: 500;
+  font-size: 15px;
+  letter-spacing: -0.075em;
+  color: #FFF;
+}
+
+.container {
+  max-width: 80%;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+}
+
+.row--center {
+  justify-content: center;
+  align-items: center;
+}
+
+.header {
+  height: 55px;
+  background-color: #F55A5A;
+}
+
+.header-icon {
+  margin-right: 7px;
 }
